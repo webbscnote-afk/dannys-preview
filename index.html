@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Danny's Bar &amp; Grill — Kansas City, KS (Preview)</title>
+<meta name="description" content="Game days, birthday parties, cold drinks and good food at Danny's Bar & Grill in Kansas City, KS. Preview concept.">
+<meta name="robots" content="noindex">
+<style>
+:root{--red:#E31837;--gold:#FFB81C;--ink:#120b0b;--brick:#8e2a22;--cream:#fff6e3}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--ink);color:var(--cream);line-height:1.5}
+.sign{background:#1a0505;border-top:4px solid var(--gold);border-bottom:4px solid var(--gold);overflow:hidden;position:sticky;top:0;z-index:5;box-shadow:0 0 18px rgba(227,24,55,.6)}
+.bulbs{height:10px;background:radial-gradient(circle,var(--gold) 0 3px,transparent 4px) 0 0/18px 10px repeat-x;animation:blink 1s steps(2) infinite}
+.bulbs.b2{animation-delay:.5s}
+@keyframes blink{50%{opacity:.35}}
+.track{display:flex;width:max-content;animation:scroll 22s linear infinite}
+.track span{white-space:nowrap;padding:8px 0;font:900 1.35rem/1.2 Impact,'Arial Black',sans-serif;letter-spacing:.08em;color:var(--gold);text-shadow:0 0 6px var(--red),0 0 14px var(--red)}
+.track b{color:var(--red);text-shadow:0 0 8px var(--gold);margin:0 .6em}
+@keyframes scroll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.track,.bulbs{animation:none}}
+.hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;background:url(storefront.jpg) center 30%/cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(18,11,11,.95))}
+.hero div{position:relative;z-index:1;padding:24px 20px 32px}
+.hero h1{font:900 2.6rem/1 Impact,'Arial Black',sans-serif;letter-spacing:.03em;text-transform:uppercase}
+.hero h1 em{display:block;font-style:normal;color:var(--gold);font-size:1.5rem}
+.hero p{margin-top:8px;font-size:1.05rem}
+.btn{display:inline-block;margin-top:16px;background:var(--red);color:#fff;text-decoration:none;font-weight:800;padding:14px 22px;border-radius:999px;border:2px solid var(--gold);box-shadow:0 0 14px rgba(255,184,28,.45)}
+section{padding:36px 20px;max-width:760px;margin:auto}
+section h2{font:900 1.8rem Impact,'Arial Black',sans-serif;color:var(--gold);text-transform:uppercase;border-left:6px solid var(--red);padding-left:10px;margin-bottom:12px}
+.card{background:linear-gradient(135deg,#2a0b0b,#1a0808);border:1px solid #4a1a1a;border-radius:14px;padding:18px;margin-top:12px}
+ul{padding-left:1.2em}li{margin:6px 0}
+.alt{background:var(--brick)}
+.alt h2{color:#fff;border-color:var(--gold)}
+.alt .wrap{max-width:760px;margin:auto}
+a{color:var(--gold)}
+.ph{color:#ffcf6e;font-style:italic}
+.promo{padding:28px 20px;max-width:760px;margin:auto}
+.promo video{width:100%;border-radius:14px;border:2px solid var(--gold);background:#000;display:block}
+.promo .card{margin-top:12px}
+footer{text-align:center;font-size:.8rem;opacity:.75;padding:24px 16px 36px;border-top:1px solid #3a1515}
+</style>
+</head>
+<body>
+<header class="sign" aria-label="Danny's marquee">
+  <div class="bulbs"></div>
+  <div class="track" aria-hidden="true">
+    <span>GAME DAY AT DANNY'S<b>★</b>BIRTHDAY PARTIES<b>★</b>COLD DRINKS<b>★</b>GOOD FOOD<b>★</b>KANSAS CITY<b>★</b></span>
+    <span>GAME DAY AT DANNY'S<b>★</b>BIRTHDAY PARTIES<b>★</b>COLD DRINKS<b>★</b>GOOD FOOD<b>★</b>KANSAS CITY<b>★</b></span>
+  </div>
+  <div class="bulbs b2"></div>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>Danny's <em>Bar &amp; Grill</em></h1>
+    <p>Kansas City's spot for game days, birthdays, and good times with your people.</p>
+    <a class="btn" href="mailto:[party-email]?subject=Party%20at%20Danny's">🎉 Plan a party</a>
+  </div>
+</div>
+
+<section id="game-days">
+  <h2>Game Days</h2>
+  <p>Red and gold all day. Big screens, a loud room, and a crowd that lives and dies with Kansas City. Grab your crew, grab a cold one, and catch every snap at Danny's.</p>
+  <div class="card"><strong>Game day specials:</strong> <span class="ph">[Ask Danny's for this week's game day specials]</span></div>
+</section>
+
+<div class="alt"><section id="parties">
+  <h2>Parties &amp; Events</h2>
+  <p>Birthday coming up? Let Danny's host it. Bring the family, the team, or the whole block and we'll keep the drinks cold and the food coming.</p>
+  <ul><li>Birthday parties</li><li>Watch parties &amp; team get-togethers</li><li>Celebrations of every kind</li></ul>
+  <div class="card"><span class="ph">[Party packages, group sizes, and pricing: ask Danny's]</span></div>
+  <a class="btn" href="mailto:[party-email]?subject=Party%20at%20Danny's">🎂 Book your birthday party</a>
+</section></div>
+
+
+<section class="promo" id="promo">
+  <h2>Watch the vibe</h2>
+  <p>A quick look at Danny's energy. Show this on your phone, no pitch needed.</p>
+  <video controls playsinline preload="metadata" poster="storefront.jpg">
+    <source src="https://cdn.jsdelivr.net/gh/webbscnote-afk/dannys-preview@main/Dannys_Promo.mp4" type="video/mp4">
+  </video>
+  <div class="card">Built as a free preview for Danny's. Not the official site yet.</div>
+</section>
+
+<section id="visit">
+  <h2>Visit Us</h2>
+  <div class="card">
+    <p><strong>📍 10940 Parallel Pkwy, Ste Q<br>Kansas City, KS 66109</strong><br>
+    <a href="https://maps.google.com/?q=10940+Parallel+Pkwy+Ste+Q+Kansas+City+KS+66109">Get directions</a></p>
+    <p style="margin-top:10px"><strong>📞 <a href="tel:+19133280247">(913) 328-0247</a></strong></p>
+    <p style="margin-top:10px" class="ph">[Hours: confirm with Danny's]</p>
+  </div>
+</section>
+
+<footer>
+  Preview concept built by PBC for Danny's Bar &amp; Grill. This is not Danny's official website.<br>
+  Contact: <a href="mailto:webbscnote@gmail.com">webbscnote@gmail.com</a>
+</footer>
+</body>
+</html>
